@@ -1,0 +1,27 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "show the weather",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vika1221/weatherApp.git"
+  },
+  "author": "vikash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vika1221/weatherApp/issues"
+  },
+  "homepage": "https://github.com/vika1221/weatherApp#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
