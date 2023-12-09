@@ -2,11 +2,9 @@ import { useEffect, useState } from "react";
 
 const Body = () => {
   const [city, setCity] = useState("");
-  //let city="kolkata";
-  //let key=b70b0cb77dcd9425eb08ff89efedb077;
   async function getapi(props) {
     console.log(props);
-    const data = await fetch("https://api.openweathermap.org/data/2.5/weather?q="+props+"&appid=b70b0cb77dcd9425eb08ff89efedb077");
+    const data = await fetch("https://api.openweathermap.org/data/2.5/weather?q="+props+"&appid={key}");
     const json = await data.json();
     console.log(json);
 
